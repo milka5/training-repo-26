@@ -6,10 +6,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class GitHubUserStatistics {
-    public static final String USER_NAME = System.getProperty("github.user", "octocat");
+    public static final String milka5 = System.getProperty("github.user", "octocat");
 
     public static void main(String[] args) {
-        String username = (args != null && args.length > 0) ? args[0] : USER_NAME;
+        String username = (args != null && args.length > 0) ? args[0] : milka5;
         String apiUrl = "https://api.github.com/users/" + username;
 
         try {
